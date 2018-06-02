@@ -1,0 +1,2 @@
+127.0.0.1 - - [26/May/2018:13:32:59 +0800] "POST /solr/update?wt=javabin&version=2 HTTP/1.1" 200 42
+127.0.0.1 - - [26/May/2018:13:33:02 +0800] "POST /solr/update HTTP/1.1" 200 42

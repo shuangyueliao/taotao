@@ -1,0 +1,36 @@
+七月 04, 2017 9:32:36 上午 org.apache.catalina.core.ApplicationContext log
+信息: No Spring WebApplicationInitializer types detected on classpath
+七月 04, 2017 9:32:36 上午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring root WebApplicationContext
+七月 04, 2017 9:32:44 上午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring FrameworkServlet 'dispatcher'
+七月 04, 2017 9:32:45 上午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextInitialized()
+七月 04, 2017 9:32:45 上午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextInitialized()
+七月 04, 2017 9:32:45 上午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@21b6242d')
+七月 04, 2017 2:47:27 下午 org.apache.catalina.core.ApplicationContext log
+信息: No Spring WebApplicationInitializer types detected on classpath
+七月 04, 2017 2:47:27 下午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring root WebApplicationContext
+七月 04, 2017 2:47:33 下午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring FrameworkServlet 'dispatcher'
+七月 04, 2017 2:47:36 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextInitialized()
+七月 04, 2017 2:47:36 下午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextInitialized()
+七月 04, 2017 2:47:36 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@3ff7a7e7')
+七月 04, 2017 7:30:31 下午 org.apache.catalina.core.ApplicationContext log
+信息: No Spring WebApplicationInitializer types detected on classpath
+七月 04, 2017 7:30:31 下午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring root WebApplicationContext
+七月 04, 2017 7:30:34 下午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring FrameworkServlet 'dispatcher'
+七月 04, 2017 7:30:35 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextInitialized()
+七月 04, 2017 7:30:35 下午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextInitialized()
+七月 04, 2017 7:30:35 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@1badd165')

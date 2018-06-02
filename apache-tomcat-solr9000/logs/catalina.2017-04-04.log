@@ -1,0 +1,94 @@
+四月 04, 2017 2:45:13 下午 org.apache.catalina.core.AprLifecycleListener init
+信息: Loaded APR based Apache Tomcat Native library 1.1.31 using APR version 1.4.8.
+四月 04, 2017 2:45:13 下午 org.apache.catalina.core.AprLifecycleListener init
+信息: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+四月 04, 2017 2:45:14 下午 org.apache.catalina.core.AprLifecycleListener initializeSSL
+信息: OpenSSL successfully initialized (OpenSSL 1.0.1h 5 Jun 2014)
+四月 04, 2017 2:45:14 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-apr-8080"]
+四月 04, 2017 2:45:14 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-apr-8009"]
+四月 04, 2017 2:45:14 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 1281 ms
+四月 04, 2017 2:45:14 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+四月 04, 2017 2:45:14 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.56
+四月 04, 2017 2:45:14 下午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deploying web application archive C:\Program Files\Apache Software Foundation\apache-tomcat-7.0.56\webapps\test01.war
+四月 04, 2017 2:45:16 下午 org.apache.catalina.util.SessionIdGenerator createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [175] milliseconds.
+四月 04, 2017 2:45:16 下午 com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+信息: Parsing configuration file [struts-default.xml]
+四月 04, 2017 2:45:16 下午 com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+信息: Unable to locate configuration files of the name struts-plugin.xml, skipping
+四月 04, 2017 2:45:16 下午 com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+信息: Parsing configuration file [struts-plugin.xml]
+四月 04, 2017 2:45:16 下午 com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+信息: Parsing configuration file [struts.xml]
+四月 04, 2017 2:45:16 下午 com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+信息: Choosing bean (struts) for class com.opensymphony.xwork2.ObjectFactory
+四月 04, 2017 2:45:16 下午 com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+信息: Choosing bean (struts) for class com.opensymphony.xwork2.conversion.impl.XWorkConverter
+四月 04, 2017 2:45:16 下午 com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+信息: Choosing bean (struts) for interface com.opensymphony.xwork2.TextProvider
+四月 04, 2017 2:45:16 下午 com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+信息: Choosing bean (struts) for interface com.opensymphony.xwork2.ActionProxyFactory
+四月 04, 2017 2:45:16 下午 com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+信息: Choosing bean (struts) for interface com.opensymphony.xwork2.conversion.ObjectTypeDeterminer
+四月 04, 2017 2:45:16 下午 com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+信息: Choosing bean (struts) for interface org.apache.struts2.dispatcher.mapper.ActionMapper
+四月 04, 2017 2:45:16 下午 com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+信息: Choosing bean (jakarta) for interface org.apache.struts2.dispatcher.multipart.MultiPartRequest
+四月 04, 2017 2:45:16 下午 com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+信息: Choosing bean (struts) for class org.apache.struts2.views.freemarker.FreemarkerManager
+四月 04, 2017 2:45:16 下午 com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+信息: Choosing bean (struts) for interface org.apache.struts2.components.UrlRenderer
+四月 04, 2017 2:45:16 下午 com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+信息: Choosing bean (struts) for interface com.opensymphony.xwork2.validator.ActionValidatorManager
+四月 04, 2017 2:45:16 下午 com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+信息: Choosing bean (struts) for interface com.opensymphony.xwork2.util.ValueStackFactory
+四月 04, 2017 2:45:16 下午 com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+信息: Choosing bean (struts) for interface com.opensymphony.xwork2.util.reflection.ReflectionProvider
+四月 04, 2017 2:45:16 下午 com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+信息: Choosing bean (struts) for interface com.opensymphony.xwork2.util.reflection.ReflectionContextFactory
+四月 04, 2017 2:45:16 下午 com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+信息: Choosing bean (struts) for interface com.opensymphony.xwork2.util.PatternMatcher
+四月 04, 2017 2:45:16 下午 com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+信息: Choosing bean (struts) for interface org.apache.struts2.dispatcher.StaticContentLoader
+四月 04, 2017 2:45:16 下午 com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+信息: Choosing bean (struts) for interface com.opensymphony.xwork2.UnknownHandlerManager
+四月 04, 2017 2:45:16 下午 com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+信息: Overriding property struts.i18n.reload - old value: false new value: true
+四月 04, 2017 2:45:16 下午 com.opensymphony.xwork2.util.logging.jdk.JdkLogger info
+信息: Overriding property struts.configuration.xml.reload - old value: false new value: true
+四月 04, 2017 2:45:17 下午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deployment of web application archive C:\Program Files\Apache Software Foundation\apache-tomcat-7.0.56\webapps\test01.war has finished in 2,239 ms
+四月 04, 2017 2:45:17 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Program Files\Apache Software Foundation\apache-tomcat-7.0.56\webapps\docs
+四月 04, 2017 2:45:17 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory C:\Program Files\Apache Software Foundation\apache-tomcat-7.0.56\webapps\docs has finished in 63 ms
+四月 04, 2017 2:45:17 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Program Files\Apache Software Foundation\apache-tomcat-7.0.56\webapps\examples
+四月 04, 2017 2:45:17 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory C:\Program Files\Apache Software Foundation\apache-tomcat-7.0.56\webapps\examples has finished in 322 ms
+四月 04, 2017 2:45:17 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Program Files\Apache Software Foundation\apache-tomcat-7.0.56\webapps\host-manager
+四月 04, 2017 2:45:17 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory C:\Program Files\Apache Software Foundation\apache-tomcat-7.0.56\webapps\host-manager has finished in 60 ms
+四月 04, 2017 2:45:17 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Program Files\Apache Software Foundation\apache-tomcat-7.0.56\webapps\manager
+四月 04, 2017 2:45:17 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory C:\Program Files\Apache Software Foundation\apache-tomcat-7.0.56\webapps\manager has finished in 51 ms
+四月 04, 2017 2:45:17 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Program Files\Apache Software Foundation\apache-tomcat-7.0.56\webapps\ROOT
+四月 04, 2017 2:45:17 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory C:\Program Files\Apache Software Foundation\apache-tomcat-7.0.56\webapps\ROOT has finished in 39 ms
+四月 04, 2017 2:45:17 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-apr-8080"]
+四月 04, 2017 2:45:17 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-apr-8009"]
+四月 04, 2017 2:45:17 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 2858 ms
+四月 04, 2017 2:45:45 下午 org.apache.jasper.compiler.TldLocationsCache tldScanJar
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.

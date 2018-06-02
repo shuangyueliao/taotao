@@ -1,0 +1,144 @@
+九月 22, 2017 10:25:23 上午 org.apache.catalina.core.AprLifecycleListener init
+信息: Loaded APR based Apache Tomcat Native library 1.1.31 using APR version 1.4.8.
+九月 22, 2017 10:25:23 上午 org.apache.catalina.core.AprLifecycleListener init
+信息: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+九月 22, 2017 10:25:24 上午 org.apache.catalina.core.AprLifecycleListener initializeSSL
+信息: OpenSSL successfully initialized (OpenSSL 1.0.1h 5 Jun 2014)
+九月 22, 2017 10:25:25 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-apr-8080"]
+九月 22, 2017 10:25:25 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-apr-8009"]
+九月 22, 2017 10:25:25 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 3393 ms
+九月 22, 2017 10:25:25 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+九月 22, 2017 10:25:25 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.56
+九月 22, 2017 10:25:25 上午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deploying web application archive C:\Program Files\Apache Software Foundation\apache-tomcat-7.0.56\webapps\Flying.war
+九月 22, 2017 10:25:38 上午 org.springframework.web.context.ContextLoader initWebApplicationContext
+信息: Root WebApplicationContext: initialization started
+九月 22, 2017 10:25:39 上午 org.springframework.web.context.support.XmlWebApplicationContext prepareRefresh
+信息: Refreshing Root WebApplicationContext: startup date [Fri Sep 22 10:25:39 CST 2017]; root of context hierarchy
+九月 22, 2017 10:25:39 上午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from class path resource [bean.xml]
+九月 22, 2017 10:25:40 上午 com.mchange.v2.log.MLog <clinit>
+信息: MLog clients using java 1.4+ standard logging.
+九月 22, 2017 10:25:40 上午 com.mchange.v2.c3p0.C3P0Registry banner
+信息: Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+九月 22, 2017 10:25:42 上午 org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+九月 22, 2017 10:25:42 上午 org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.3.5.Final}
+九月 22, 2017 10:25:42 上午 org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+九月 22, 2017 10:25:42 上午 org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+九月 22, 2017 10:25:43 上午 org.hibernate.internal.util.xml.DTDEntityResolver resolveEntity
+WARN: HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+九月 22, 2017 10:25:43 上午 org.hibernate.internal.util.xml.DTDEntityResolver resolveEntity
+WARN: HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+九月 22, 2017 10:25:44 上午 com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource getPoolManager
+信息: Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> ulb67j9q1ag5rfn112kkrw|518634ee, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> ulb67j9q1ag5rfn112kkrw|518634ee, idleConnectionTestPeriod -> 0, initialPoolSize -> 1, jdbcUrl -> jdbc:mysql://localhost/plane, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 30, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 40, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 2, numHelperThreads -> 3, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+九月 22, 2017 10:25:44 上午 org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+九月 22, 2017 10:25:44 上午 org.hibernate.engine.jdbc.internal.LobCreatorBuilder useContextualLobCreation
+INFO: HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+九月 22, 2017 10:25:45 上午 org.hibernate.engine.transaction.internal.TransactionFactoryInitiator initiateService
+INFO: HHH000399: Using default transaction strategy (direct JDBC transactions)
+九月 22, 2017 10:25:45 上午 org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory <init>
+INFO: HHH000397: Using ASTQueryTranslatorFactory
+九月 22, 2017 10:25:46 上午 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: HHH000228: Running hbm2ddl schema update
+九月 22, 2017 10:25:46 上午 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: HHH000102: Fetching database metadata
+九月 22, 2017 10:25:46 上午 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: HHH000396: Updating schema
+九月 22, 2017 10:25:46 上午 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000261: Table found: plane.rank
+九月 22, 2017 10:25:46 上午 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000037: Columns: [score, id, username]
+九月 22, 2017 10:25:46 上午 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000108: Foreign keys: []
+九月 22, 2017 10:25:46 上午 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000126: Indexes: [primary]
+九月 22, 2017 10:25:46 上午 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000261: Table found: plane.user
+九月 22, 2017 10:25:46 上午 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000037: Columns: [password, id, jifeng, username]
+九月 22, 2017 10:25:46 上午 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000108: Foreign keys: []
+九月 22, 2017 10:25:46 上午 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000126: Indexes: [primary]
+九月 22, 2017 10:25:46 上午 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: HHH000232: Schema update complete
+九月 22, 2017 10:25:46 上午 org.springframework.orm.hibernate4.HibernateTransactionManager afterPropertiesSet
+信息: Using DataSource [com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> ulb67j9q1ag5rfn112kkrw|518634ee, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> ulb67j9q1ag5rfn112kkrw|518634ee, idleConnectionTestPeriod -> 0, initialPoolSize -> 1, jdbcUrl -> jdbc:mysql://localhost/plane, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 30, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 40, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 2, numHelperThreads -> 3, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]] of Hibernate SessionFactory for HibernateTransactionManager
+九月 22, 2017 10:25:46 上午 org.springframework.web.context.ContextLoader initWebApplicationContext
+信息: Root WebApplicationContext: initialization completed in 7384 ms
+九月 22, 2017 10:25:46 上午 org.springframework.web.servlet.DispatcherServlet initServletBean
+信息: FrameworkServlet 'dispatcher': initialization started
+九月 22, 2017 10:25:46 上午 org.springframework.web.context.support.XmlWebApplicationContext prepareRefresh
+信息: Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Sep 22 10:25:46 CST 2017]; parent: Root WebApplicationContext
+九月 22, 2017 10:25:46 上午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from class path resource [springmvc.xml]
+九月 22, 2017 10:25:46 上午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped "{[/plane/size],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.springmvc.controller.PlaneController.getSize(javax.servlet.http.HttpServletRequest)
+九月 22, 2017 10:25:46 上午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped "{[/plane/match],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.springmvc.entity.User com.springmvc.controller.PlaneController.match(javax.servlet.http.HttpServletRequest)
+九月 22, 2017 10:25:46 上午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped "{[/plane/clear],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.springmvc.controller.PlaneController.getClear(javax.servlet.http.HttpServletRequest)
+九月 22, 2017 10:25:46 上午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped "{[/plane/mapsize],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.Integer com.springmvc.controller.PlaneController.getMsize(javax.servlet.http.HttpServletRequest)
+九月 22, 2017 10:25:46 上午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped "{[/plane/mapclear],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.Integer com.springmvc.controller.PlaneController.getMclear(javax.servlet.http.HttpServletRequest)
+九月 22, 2017 10:25:46 上午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped "{[/plane/getscore],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.springmvc.controller.PlaneController.getYourScore(javax.servlet.http.HttpServletRequest)
+九月 22, 2017 10:25:46 上午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped "{[/rank/add],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public boolean com.springmvc.controller.RankController.add(javax.servlet.http.HttpServletRequest)
+九月 22, 2017 10:25:46 上午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped "{[/rank/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.List<com.springmvc.entity.Rank> com.springmvc.controller.RankController.findAll(javax.servlet.http.HttpServletRequest)
+九月 22, 2017 10:25:46 上午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped "{[/user/login],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.springmvc.entity.User com.springmvc.controller.UserController.Login(javax.servlet.http.HttpServletRequest)
+九月 22, 2017 10:25:46 上午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped "{[/user/register],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public boolean com.springmvc.controller.UserController.Register(javax.servlet.http.HttpServletRequest)
+九月 22, 2017 10:25:46 上午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped "{[/user/jifeng],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.Integer com.springmvc.controller.UserController.getJifeng(javax.servlet.http.HttpServletRequest)
+九月 22, 2017 10:25:46 上午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped "{[/user/change],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.springmvc.controller.UserController.changeJifeng(javax.servlet.http.HttpServletRequest)
+九月 22, 2017 10:25:47 上午 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping registerHandler
+信息: Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+九月 22, 2017 10:25:47 上午 org.springframework.web.servlet.DispatcherServlet initServletBean
+信息: FrameworkServlet 'dispatcher': initialization completed in 1320 ms
+九月 22, 2017 10:25:48 上午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deployment of web application archive C:\Program Files\Apache Software Foundation\apache-tomcat-7.0.56\webapps\Flying.war has finished in 21,944 ms
+九月 22, 2017 10:25:48 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Program Files\Apache Software Foundation\apache-tomcat-7.0.56\webapps\docs
+九月 22, 2017 10:25:48 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory C:\Program Files\Apache Software Foundation\apache-tomcat-7.0.56\webapps\docs has finished in 540 ms
+九月 22, 2017 10:25:48 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Program Files\Apache Software Foundation\apache-tomcat-7.0.56\webapps\examples
+九月 22, 2017 10:25:55 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory C:\Program Files\Apache Software Foundation\apache-tomcat-7.0.56\webapps\examples has finished in 6,455 ms
+九月 22, 2017 10:25:55 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Program Files\Apache Software Foundation\apache-tomcat-7.0.56\webapps\host-manager
+九月 22, 2017 10:25:55 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory C:\Program Files\Apache Software Foundation\apache-tomcat-7.0.56\webapps\host-manager has finished in 94 ms
+九月 22, 2017 10:25:55 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Program Files\Apache Software Foundation\apache-tomcat-7.0.56\webapps\manager
+九月 22, 2017 10:25:55 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory C:\Program Files\Apache Software Foundation\apache-tomcat-7.0.56\webapps\manager has finished in 85 ms
+九月 22, 2017 10:25:55 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Program Files\Apache Software Foundation\apache-tomcat-7.0.56\webapps\ROOT
+九月 22, 2017 10:25:55 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory C:\Program Files\Apache Software Foundation\apache-tomcat-7.0.56\webapps\ROOT has finished in 52 ms
+九月 22, 2017 10:25:55 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-apr-8080"]
+九月 22, 2017 10:25:55 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-apr-8009"]
+九月 22, 2017 10:25:55 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 29795 ms
+九月 22, 2017 10:27:40 上午 org.hibernate.hql.internal.ast.HqlSqlWalker generatePositionalParameter
+WARN: [DEPRECATION] Encountered positional parameter near line 1, column 47.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+九月 22, 2017 10:27:40 上午 org.hibernate.hql.internal.ast.HqlSqlWalker generatePositionalParameter
+WARN: [DEPRECATION] Encountered positional parameter near line 1, column 62.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
